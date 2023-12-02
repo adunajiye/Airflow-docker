@@ -1,9 +1,9 @@
 # Use the official Apache Airflow image as the base
-FROM apache/airflow:2.5.0
+FROM apache/airflow:2.6.3
 
 # Set environment variables
 ENV AIRFLOW_HOME=/opt/airflow
-ARG AIRFLOW_VERSION=2.5.0
+ARG AIRFLOW_VERSION=2.6.3
 
 # Switch to the 'airflow' user
 USER airflow
